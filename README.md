@@ -1,21 +1,24 @@
 🧠 Gemini RAG Chatbot with Reinforcement Learning :: Live link : https://iris-navy.vercel.app/
+
 This project is an AI-powered chatbot that leverages Google's Gemini LLM, retrieval-augmented generation (RAG), and Q-learning to provide highly relevant, context-aware responses from a custom document database.
 
 The system uses semantic search powered by FAISS, dynamically optimized through reinforcement learning, and served through a FastAPI backend and a modern Next.js frontend.
 
 This chatbot can be used to build intelligent assistants for tasks like internal documentation Q&A, educational tutors, customer support, and more.
 
-⚙️ Tech Stack
-Layer	Technology	Purpose
-Frontend	Next.js, shadcn/ui, Tailwind CSS	User interface for chatting
-Backend	FastAPI	API logic, semantic search, RL processing
-LLM	Google Gemini API	Generates human-like answers from retrieved context
-RAG Framework	LangChain	Constructs prompts and handles LLM flow
-Embeddings	Gemini Embeddings / SentenceTransformers	Converts chunks into vectors for similarity search
-Database	FAISS	Fast semantic search over document embeddings
-Reinforcement Learning	Q-Learning	Dynamically adjusts chunking strategy to optimize answers
-OCR (Optional)	Tesseract	Reads text from PDF/images if needed
-Environment	.env + python-dotenv	Manages API keys and sensitive configuration
+## 🧰 Tech Stack
+
+| Layer        | Technology Used                         | Description                                                                 |
+|--------------|------------------------------------------|-----------------------------------------------------------------------------|
+| **Frontend** | Next.js + TypeScript + shadcn/ui         | Modern React-based frontend with elegant UI components                     |
+| **Backend**  | FastAPI                                   | Fast and scalable backend serving API requests                             |
+| **LLM API**  | Google Gemini Pro (via `google-generativeai`) | Used for chat, vision, and natural language processing tasks                |
+| **RAG**      | LangChain + FAISS                         | For Retrieval-Augmented Generation and semantic document retrieval         |
+| **Learning** | Q-Learning Agent                          | Dynamically tunes chunk size & retriever logic for improved performance     |
+| **File Input** | PyMuPDF / pdfplumber / python-docx     | Parses PDF and DOCX files for knowledge ingestion                          |
+| **Storage**  | FAISS Vector DB                           | Stores embeddings for fast similarity-based search                         |
+| **Embedding**| Gemini Embeddings                         | Vector representations of text chunks                                      |
+| **UI Host**  | Streamlit (for internal testing only)     | Optional rapid prototyping for testing ML logic               
 
 📄 Published Paper
 📘 This project is backed by research!
