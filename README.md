@@ -24,7 +24,8 @@ This chatbot can be used to build intelligent assistants for tasks like internal
 📘 This project is backed by research!
 Read our published paper here: https://ijsrem.com/download/gen-ai-based-chatbot-on-top-of-llama-for-ssr-documents/
 
-Perfect. Here's an additional **"🚀 Getting Started"** section that shows **how to set up the full project (frontend + backend + .env)**. I'll combine it into the final README afterward:
+<img width="1915" height="974" alt="image" src="https://github.com/user-attachments/assets/97168af7-c67e-4212-a8f7-fe99a0603ec6" />
+
 
 ---
 
