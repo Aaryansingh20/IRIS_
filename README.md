@@ -35,7 +35,7 @@ Follow these steps to run the **Gemini RAG Chatbot with RL** on your local machi
 ### 🔐 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Aaryansingh20/Rag-chat.git
+git clone https://github.com/Aaryansingh20/Iris_.git
 cd rag-chat
 ```
 
